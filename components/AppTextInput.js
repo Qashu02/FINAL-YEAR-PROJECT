@@ -17,7 +17,8 @@ function AppTextInput({ icon, style,lock,  placeholder, ...otherProps }) {
           style={[styles.icon]}
         />
       )}
- <TextInput  placeholder={placeholder}></TextInput>     {lock && (
+ <TextInput   placeholder={placeholder}></TextInput>  
+    {lock && (
         <MaterialCommunityIcons
           name={lock}
           size={20}
